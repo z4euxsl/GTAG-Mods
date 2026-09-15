@@ -18,6 +18,7 @@ using namespace std;
 
 void diddymirror () {
 GameObject::Find("mirror (1)")->SetActive(true);
+}
 
 void increaseArmLengththing() {
     if (armLength < armmax) {
